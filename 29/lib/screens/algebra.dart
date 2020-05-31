@@ -22,7 +22,7 @@ class algebra extends StatelessWidget {
                       overflow: TextOverflow.fade,
                     ),
                     new Image.asset(
-                      "images/a2.jpg",
+                      "img_data/img_ds/1.1.jpg",
                       fit: BoxFit.fill,
                     ),
                   ],
@@ -35,12 +35,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.2.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -53,12 +53,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.3.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -71,12 +71,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.4.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -89,12 +89,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.5.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -107,12 +107,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.6.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -125,12 +125,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.7.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],
@@ -143,12 +143,12 @@ class algebra extends StatelessWidget {
               child: new Column(
                 children: <Widget>[
                   new Text(
-                    "Đại Số",
+                    "",
                     style: TextStyle(fontSize: 25.0),
                     overflow: TextOverflow.fade,
                   ),
                   new Image.asset(
-                    "images/a2.jpg",
+                    "img_data/img_ds/1.8.jpg",
                     fit: BoxFit.fill,
                   ),
                 ],

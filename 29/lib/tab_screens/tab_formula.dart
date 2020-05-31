@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:math/screens/plane_geometry.dart';
-import 'package:math/tab_screens/tab_tips.dart';
-import 'package:math/tab_screens/tab_tool.dart';
-import 'package:math/tab_screens/tab_you_know.dart';
 import '../screens/algebra.dart';
 import '../screens/differential_derivative.dart';
 import '../screens/integral.dart';
@@ -12,9 +9,6 @@ import '../screens/analytic_geometry.dart';
 import '../screens/probability_statistics.dart';
 import '../screens/plane_geometry.dart';
 import '../screens/trigonometric.dart';
-import '../tab_screens/tab_you_know.dart';
-import '../tab_screens/tab_tips.dart';
-import '../tab_screens/tab_tool.dart';
 
 
 
@@ -59,6 +53,14 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           backgroundColor: Colors.lightBlue,
           title: Text('Trang chủ'),
+          actions: <Widget>[
+            IconButton(icon: Icon(Icons.search),
+              //onPressed: showSearch(context: null, delegate: DataSearch),
+              iconSize: 35.0,
+              color: Colors.white,
+            ),
+
+          ],
         ),
         body: Container(
             child: ListView(
@@ -327,75 +329,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-      /*bottomNavigationBar:
-      BottomNavigationBar(
-        backgroundColor: Colors.lightBlueAccent,
-        selectedItemColor: Colors.white,
-        type: BottomNavigationBarType.fixed,
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            //onTap :Navigator.pushNamed(context, '/daiso'),
 
-            icon: Icon(Icons.home),
-            title: Text(
-              'Trang chủ',
-              style: TextStyle(fontSize: 15.0),
-            ),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.developer_board),
-
-            title: Text(
-              'Công cụ',
-              style: TextStyle(fontSize: 15.0),
-            ),
-          ),
-
-          BottomNavigationBarItem(
-            icon: Icon(Icons.lightbulb_outline),
-            title: Text(
-              'Mẹo',
-              style: TextStyle(fontSize: 15.0),
-            ),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.help_outline),
-            title: Text(
-              'Bạn có biết',
-              style: TextStyle(fontSize: 15.0),
-            ),
-          )
-        ],*/
-      // bottomNavigationBar: BottomAppBar(
-      /*bottomNavigationBar: new BottomNavigationBar(
-        items: [
-          new BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Home'),
-          ),
-          new BottomNavigationBarItem(
-            icon: new Icon(Icons.photo_library),
-            title: new Text('Blog'),
-          ),
-          new BottomNavigationBarItem(
-            icon: new Icon(Icons.book),
-            title: new Text('Library'),
-          ),
-          new BottomNavigationBarItem(
-            icon: new Icon(Icons.notifications),
-            title: new Text('Notifications'),
-          ),
-        ],
-        currentIndex: i,
-        type: BottomNavigationBarType.fixed,
-        onTap: (index) {
-          setState(() {
-            i = index;
-          });
-        },
-      ),
-    )
-    );
-  }
-}*/
-/////////////////////////////////////////

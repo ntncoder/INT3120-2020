@@ -13,7 +13,7 @@ class tab_tips extends StatelessWidget {
       body: Container(
         child: ListView(
           children: <Widget> [
-          new Image.asset("images/a1.jpg"),
+          new Image.asset("img_data/img_bcb/1.1.jpg"),
 
         ]
         )
