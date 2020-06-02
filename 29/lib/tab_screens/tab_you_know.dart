@@ -1,4 +1,4 @@
-/*import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class tab_you_know extends StatelessWidget {
@@ -14,12 +14,14 @@ class tab_you_know extends StatelessWidget {
         body: Container(
             child: ListView(
                 children: <Widget> [
-                  new Image.asset("images/a1.jpg"),
-
+                  new Image.asset("img_data/img_bcb/1.jpg"),
+                  new Image.asset("img_data/img_bcb/2.jpg"),
+                  new Image.asset("img_data/img_bcb/3.jpg"),
+                  new Image.asset("img_data/img_bcb/4.jpg"),
                 ]
             )
         )
     );
   }
-}*/
+}
 /**/

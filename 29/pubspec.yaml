@@ -25,8 +25,12 @@ dependencies:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
+#  test: 1.14.6
+#  flutter_driver:
+#    sdk: flutter
   flutter_test:
     sdk: flutter
+
 
 
 # For information on the generic Dart part of this file, see the
@@ -50,28 +54,139 @@ flutter:
     - images/sr6.PNG
     - images/sr7.PNG
     - images/sr8.PNG
-    - img_data/img_ds/1.1.jpg
-    - img_data/img_ds/1.2.jpg
-    - img_data/img_ds/1.3.jpg
-    - img_data/img_ds/1.4.jpg
-    - img_data/img_ds/1.5.jpg
-    - img_data/img_ds/1.6.jpg
-    - img_data/img_ds/1.7.jpg
-    - img_data/img_ds/1.8.jpg
-    - img_data/img_ds/1.9.jpg
-    - img_data/img_ds/1.10.jpg
-    - img_data/img_ds/1.11.jpg
-    - img_data/img_ds/1.12.jpg
-    - img_data/img_ds/1.13.jpg
-    - img_data/img_ds/1.14.jpg
-    - img_data/img_ds/1.15.jpg
-    - img_data/img_ds/1.16.jpg
-    - img_data/img_ds/1.17.jpg
-    - img_data/img_ds/1.18.jpg
-    - img_data/img_ds/1.19.jpg
+    - img_data/img_ds/1.jpg
+    - img_data/img_ds/2.jpg
+    - img_data/img_ds/3.jpg
+    - img_data/img_ds/4.jpg
+    - img_data/img_ds/5.jpg
+    - img_data/img_ds/6.jpg
+    - img_data/img_ds/7.jpg
+    - img_data/img_ds/8.jpg
+    - img_data/img_ds/9.jpg
+    - img_data/img_ds/10.jpg
+    - img_data/img_ds/11.jpg
+    - img_data/img_ds/12.jpg
+    - img_data/img_ds/13.jpg
+    - img_data/img_ds/14.jpg
+    - img_data/img_ds/15.jpg
+    - img_data/img_ds/16.jpg
+    - img_data/img_ds/17.jpg
+    - img_data/img_ds/18.jpg
+    - img_data/img_ds/19.jpg
+    - img_data/img_hhgt/1.jpg
+    - img_data/img_hhgt/2.jpg
+    - img_data/img_hhgt/3.jpg
+    - img_data/img_hhgt/4.jpg
+    - img_data/img_hhgt/5.jpg
+    - img_data/img_hhgt/6.jpg
+    - img_data/img_hhgt/7.jpg
+    - img_data/img_hhgt/8.jpg
+    - img_data/img_hhgt/9.jpg
+    - img_data/img_hhgt/10.jpg
+    - img_data/img_hhgt/11.jpg
+    - img_data/img_hhgt/12.jpg
+    - img_data/img_hhgt/13.jpg
+    - img_data/img_hhgt/14.jpg
+    - img_data/img_hhgt/15.jpg
+    - img_data/img_hhgt/16.jpg
+    - img_data/img_hhgt/17.jpg
+    - img_data/img_hhgt/18.jpg
+    - img_data/img_hhgt/19.jpg
+    - img_data/img_hhgt/20.jpg
+    - img_data/img_hhgt/21.jpg
+    - img_data/img_hhgt/22.jpg
+    - img_data/img_lg/1.jpg
+    - img_data/img_lg/2.jpg
+    - img_data/img_lg/3.jpg
+    - img_data/img_lg/4.jpg
+    - img_data/img_lg/5.jpg
+    - img_data/img_lg/6.jpg
+    - img_data/img_lg/7.jpg
+    - img_data/img_lg/8.jpg
+    - img_data/img_lg/9.jpg
+    - img_data/img_lg/10.jpg
+    - img_data/img_lg/11.jpg
+    - img_data/img_lg/12.jpg
+    - img_data/img_lg/13.jpg
+    - img_data/img_lg/14.jpg
+    - img_data/img_lg/15.jpg
+    - img_data/img_lg/16.jpg
+    - img_data/img_meo/1.jpg
+    - img_data/img_meo/2.jpg
+    - img_data/img_meo/3.jpg
+    - img_data/img_meo/4.jpg
+    - img_data/img_meo/5.jpg
+    - img_data/img_meo/6.jpg
+    - img_data/img_meo/7.jpg
+    - img_data/img_meo/8.jpg
+    - img_data/img_meo/9.jpg
+    - img_data/img_meo/10.jpg
+    - img_data/img_meo/11.jpg
+    - img_data/img_meo/12.jpg
+    - img_data/img_meo/13.jpg
+    - img_data/img_meo/14.jpg
+    - img_data/img_meo/15.jpg
+    - img_data/img_meo/16.jpg
+    - img_data/img_meo/17.jpg
+    - img_data/img_mt/1.jpg
+    - img_data/img_mt/2.jpg
+    - img_data/img_mt/3.jpg
+    - img_data/img_mt/4.jpg
+    - img_data/img_mt/5.jpg
+    - img_data/img_mt/6.jpg
+    - img_data/img_mt/7.jpg
+    - img_data/img_mt/8.jpg
+    - img_data/img_tp/1.jpg
+    - img_data/img_tp/2.jpg
+    - img_data/img_tp/3.jpg
+    - img_data/img_tp/4.jpg
+    - img_data/img_tp/5.jpg
+    - img_data/img_tp/6.jpg
+    - img_data/img_tp/7.jpg
+    - img_data/img_tp/8.jpg
+    - img_data/img_tp/9.jpg
+    - img_data/img_tp/10.jpg
+    - img_data/img_tp/11.jpg
+    - img_data/img_tp/12.jpg
+    - img_data/img_tp/13.jpg
+    - img_data/img_vp/1.jpg
+    - img_data/img_vp/2.jpg
+    - img_data/img_vp/3.jpg
+    - img_data/img_vp/4.jpg
+    - img_data/img_vp/5.jpg
+    - img_data/img_vp/6.jpg
+    - img_data/img_vp/7.jpg
+    - img_data/img_xstk/1.jpg
+    - img_data/img_xstk/2.jpg
+    - img_data/img_xstk/3.jpg
+    - img_data/img_xstk/4.jpg
+    - img_data/img_xstk/5.jpg
+    - img_data/img_xstk/6.jpg
+    - img_data/img_xstk/7.jpg
+    - img_data/img_xstk/8.jpg
+    - img_data/img_xstk/9.jpg
+    - img_data/img_xstk/10.jpg
+    - img_data/img_xstk/11.jpg
+    - img_data/img_xstk/12.jpg
+    - img_data/img_xstk/13.jpg
+    - img_data/img_xstk/14.jpg
+    - img_data/img_xstk/15.jpg
+    - img_data/img_xstk/16.jpg
+    - img_data/img_xstk/17.jpg
+    - img_data/img_xstk/18.jpg
+    - img_data/img_xstk/19.jpg
+    - img_data/img_xstk/20.jpg
+    - img_data/img_xstk/21.jpg
+    - img_data/img_xstk/22.jpg
+    - img_data/img_xstk/23.jpg
+    - img_data/img_xstk/24.jpg
     - img_data/img_bcb/1.jpg
     - img_data/img_bcb/2.jpg
     - img_data/img_bcb/3.jpg
+    - img_data/img_bcb/4.jpg
+
+
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

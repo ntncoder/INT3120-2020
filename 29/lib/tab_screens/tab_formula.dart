@@ -54,11 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Colors.lightBlue,
           title: Text('Trang chủ'),
           actions: <Widget>[
-            IconButton(icon: Icon(Icons.search),
-              //onPressed: showSearch(context: null, delegate: DataSearch),
-              iconSize: 35.0,
-              color: Colors.white,
-            ),
 
           ],
         ),
