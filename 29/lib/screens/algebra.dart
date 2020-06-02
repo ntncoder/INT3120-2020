@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class differential_derivative extends StatelessWidget {
+class algebra extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class SearchList extends StatefulWidget {
 
 class _SearchListState extends State<SearchList>
 {
-  Widget appBarTitle = new Text("Đạo hàm vi phân", style: new TextStyle(color: Colors.white),);
+  Widget appBarTitle = new Text("Đại số", style: new TextStyle(color: Colors.white),);
   Icon actionIcon = new Icon(Icons.search, color: Colors.white,);
   final key = new GlobalKey<ScaffoldState>();
   final TextEditingController _searchQuery = new TextEditingController();
@@ -81,31 +81,79 @@ class _SearchListState extends State<SearchList>
         child: ListView(
           children: <Widget>[
             new Image.asset(
-              "img_data/img_vp/1.jpg",
+              "img_data/img_ds/1.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/2.jpg",
+              "img_data/img_ds/2.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/3.jpg",
+              "img_data/img_ds/3.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/4.jpg",
+              "img_data/img_ds/4.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/5.jpg",
+              "img_data/img_ds/5.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/6.jpg",
+              "img_data/img_ds/6.jpg",
               fit: BoxFit.fill,
             ),
             new Image.asset(
-              "img_data/img_vp/7.jpg",
+              "img_data/img_ds/7.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/8.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/9.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/10.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/11.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/12.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/13.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/14.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/15.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/16.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/17.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/18.jpg",
+              fit: BoxFit.fill,
+            ),
+            new Image.asset(
+              "img_data/img_ds/19.jpg",
               fit: BoxFit.fill,
             ),
           ],
@@ -179,7 +227,7 @@ class _SearchListState extends State<SearchList>
     setState(() {
       this.actionIcon = new Icon(Icons.search, color: Colors.white,);
       this.appBarTitle =
-      new Text("Đạo hàm vi phân", style: new TextStyle(color: Colors.white),);
+      new Text("Đại số", style: new TextStyle(color: Colors.white),);
       _IsSearching = false;
       _searchQuery.clear();
     });
